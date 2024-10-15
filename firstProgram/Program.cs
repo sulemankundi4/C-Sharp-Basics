@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.ComponentModel;
+
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, World This is my first program");
 
@@ -87,3 +89,45 @@ string grade = marks switch {
 };
 
 Console.WriteLine(grade);
+
+
+
+
+/////////////////////////////COLLECTIONS/////////////////////////////
+
+int[] numbers = new int[5];
+
+numbers[0] = 10;
+numbers[1] = 20;
+numbers[2] = 30;
+
+// How to declare arrays
+
+int[] arr1 = new int[] { 1, 2, 3, 4, 5 };
+
+int[] arr2 = { 1, 2, 3, 4, 5 };
+
+int[] arr3 = [ 1, 2, 3, 4, 5 ];
+
+int length = numbers.Length;
+
+Console.WriteLine($"Length of array: {length}");
+
+
+// LISTS///////
+
+List<int> demo = new List<int>();
+
+demo.Add(10);
+demo.Add(20);
+demo.AddRange(new int[] { 30, 40, 50 });
+
+demo.Insert(2, 25);
+
+foreach(int item in demo){
+   Console.WriteLine(item);
+}
+
+int lengthOfList = demo.Count;
+
+Console.WriteLine($"Length of list: {lengthOfList}");
