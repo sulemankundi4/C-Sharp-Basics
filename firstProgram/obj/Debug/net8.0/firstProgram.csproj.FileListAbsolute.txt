@@ -12,3 +12,4 @@ E:\CODING ARENA\C Sharp Basics\firstProgram\obj\Debug\net8.0\refint\firstProgram
 E:\CODING ARENA\C Sharp Basics\firstProgram\obj\Debug\net8.0\firstProgram.pdb
 E:\CODING ARENA\C Sharp Basics\firstProgram\obj\Debug\net8.0\firstProgram.genruntimeconfig.cache
 E:\CODING ARENA\C Sharp Basics\firstProgram\obj\Debug\net8.0\ref\firstProgram.dll
+E:\CODING ARENA\C Sharp Basics\firstProgram\obj\Debug\net8.0\firstProgram.sourcelink.json
