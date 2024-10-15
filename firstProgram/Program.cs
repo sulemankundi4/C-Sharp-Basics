@@ -131,3 +131,34 @@ foreach(int item in demo){
 int lengthOfList = demo.Count;
 
 Console.WriteLine($"Length of list: {lengthOfList}");
+
+
+// ////////////////////////////////////////DICTIONARIES/////////////////////////////
+
+Dictionary<int, string> demoDict = new Dictionary<int, string>();
+
+Dictionary<int, string> demoDictInit = new Dictionary<int, string>{{1, "one"}, {2,"Two"}, {3, "Three"}};
+
+foreach(KeyValuePair<int, string> item in demoDictInit){
+   Console.WriteLine($"Key : {item.Key} Value: {item.Value}");
+}
+
+// string value = demoDictInit[5]; // Accesses the value associated with key 1
+
+// Console.WriteLine($"Value: {value}");
+bool containsKey = demoDictInit.ContainsKey(3); // Checks if the dictionary contains key 3
+
+Console.WriteLine($"Contains key: {containsKey}");
+
+int[] numberArr = [1, 2, 3, 4, 5];
+
+for(int i = 0; i<numberArr.Length; i++){
+   Console.WriteLine(numberArr[i]);
+}
+
+int sum(int a, int b){
+   return a + b;
+}
+
+int answer = sum(10, 20);
+Console.WriteLine($"sum is: {answer}");
